@@ -22,7 +22,15 @@ namespace ConsoleApp1
                 result = result * array[i];
             Console.WriteLine("Product of array is  " + result);
         }
+        public void reverseArray(int[] array)
+        {
+            Array.Reverse(array);
+            Console.Write("Reversed Array: ");
+            foreach (int i in array)
+            {
+                Console.Write(i + " ");
+            }
 
-
+        }
     }
 }
