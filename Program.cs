@@ -14,9 +14,6 @@ namespace ConsoleApp1
             int[] array = { 25, 85, 95, 87, 25, 87, 96, 25, 45 };
             nmb.sumArray(array);// array sum
             nmb.productArray(array);// array product
-            nmb.sumArray(array);
-            nmb.productArray(array);
-            nmb.reverseArray(array);
             Console.WriteLine("Main method is called for all there ");
             Console.ReadKey();
         }
