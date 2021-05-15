@@ -13,6 +13,7 @@ namespace ConsoleApp1
             NumberList nmb = new NumberList();
             int[] array = { 25, 85, 95, 87, 25, 87, 96, 25, 45 };
             nmb.sumArray(array);
+            nmb.productArray(array);
             Console.ReadKey();
         }
 
